@@ -4,9 +4,12 @@
   "description": "In this I will learning that how to setup a professional Backend Project",
   "license": "ISC",
   "author": "Ashwani Singh",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
